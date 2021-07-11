@@ -25,6 +25,7 @@ description: Create AWS CodePipeline with Multiple Environments Dev and Staging
   # Adding Backend as S3 for Remote State Storage
   backend "s3" { }  
 ```
+Backend configuration   "https://www.terraform.io/docs/language/settings/backends/configuration.html"
 ### Step-02-02: Create file named `dev.conf`
 ```t
 bucket = "sa282828"
