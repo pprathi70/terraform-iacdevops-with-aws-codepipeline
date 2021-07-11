@@ -12,7 +12,7 @@ resource "aws_sns_topic" "myasg_sns_topic" {
 resource "aws_sns_topic_subscription" "myasg_sns_topic_subscription" {
   topic_arn = aws_sns_topic.myasg_sns_topic.arn
   protocol  = "email"
-  endpoint  = "stacksimplify@gmail.com"
+  endpoint  = "sa282487@gmail.com" #Note please use your email id
 }
 
 ## Create Autoscaling Notification Resource
