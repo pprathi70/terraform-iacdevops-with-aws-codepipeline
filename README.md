@@ -293,7 +293,8 @@ version: 0.2
 env:
   variables:
     TERRAFORM_VERSION: "0.15.3"
-    TF_COMMAND: "apply"
+    #TF_COMMAND: "apply"
+    TF_COMMAND: "plan"
     #TF_COMMAND: "destroy"
   parameter-store:
     AWS_ACCESS_KEY_ID: "/CodeBuild/MY_AWS_ACCESS_KEY_ID"
@@ -337,7 +338,8 @@ version: 0.2
 env:
   variables:
     TERRAFORM_VERSION: "0.15.3"
-    TF_COMMAND: "apply"
+    #TF_COMMAND: "apply"
+    TF_COMMAND: "plan"
     #TF_COMMAND: "destroy"
   parameter-store:
     AWS_ACCESS_KEY_ID: "/CodeBuild/MY_AWS_ACCESS_KEY_ID"
