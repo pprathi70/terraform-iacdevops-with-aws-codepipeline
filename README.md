@@ -12,15 +12,7 @@ description: Create AWS CodePipeline with Multiple Environments Dev and Staging
 - AWS CodeBuild
 - AWS CodePipeline
 - Github
-5. We are going to streamline the `terraform-manifests` taken from `section-15` and streamline that to support Multiple environments.
-
-[![Image](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-1.png "Terraform on AWS with IAC DevOps and SRE")](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-1.png)
-
-[![Image](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-2.png "Terraform on AWS with IAC DevOps and SRE")](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-2.png)
-
-[![Image](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-3.png "Terraform on AWS with IAC DevOps and SRE")](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-3.png)
-
-[![Image](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-4.png "Terraform on AWS with IAC DevOps and SRE")](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-4.png)
+5. We are going to streamline the `terraform-manifests` 
 
 ## Step-01: Copy terraform-manifests from Section-15
 - Copy `terraform-manifests` from Section-15 `15-Autoscaling-with-Launch-Templates`
