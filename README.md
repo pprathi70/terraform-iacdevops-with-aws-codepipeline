@@ -17,7 +17,7 @@ description: Create AWS CodePipeline with Multiple Environments Dev and Staging
 ## Step-01: Copy terraform-manifests from Section-15
 - Copy `terraform-manifests` from Section-15 `15-Autoscaling-with-Launch-Templates`
 - Update `private-key\terraform-key.pem` with your private key with same name.
-
+terraform init -backend-config="dev.conf" -backend-config="key=terrafrom.tfstate" -backend-config="region=us-east-1" 
 
 ## Step-02: c1-versions.tf - Terraform Backends
 ### Step-02-01 Add backend block as below 
