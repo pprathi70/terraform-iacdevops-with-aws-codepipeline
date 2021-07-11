@@ -14,8 +14,8 @@ description: Create AWS CodePipeline with Multiple Environments Dev and Staging
 - Github
 5. We are going to streamline the `terraform-manifests` 
 
-## Step-01: Copy terraform-manifests from Section-15
-- Copy `terraform-manifests` from Section-15 `15-Autoscaling-with-Launch-Templates`
+## Step-01: 
+- Copy `terraform-manifests`
 - Update `private-key\terraform-key.pem` with your private key with same name.
 terraform init -backend-config="dev.conf" -backend-config="key=terrafrom.tfstate" -backend-config="region=us-east-1" 
 
