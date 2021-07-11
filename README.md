@@ -376,7 +376,7 @@ phases:
 ## Step-11: Create Github Repository and Check-In file
 ### Step-11-01: Create New Github Repository
 - Go to  github.com and login with your credentials 
-- URL: https://github.com/stacksimplify  (my git repo url)
+- URL: https://github.com/sheokand1234/terraform-iacdevops-with-aws-codepipeline.git (my git repo url)
 - Click on **Repositories Tab**
 - Click on  **New** to create a new repository 
 - **Repository Name:** terraform-iacdevops-with-aws-codepipeline
@@ -391,7 +391,7 @@ phases:
 cd demo-repos
 
 # Execute Git Clone
-git clone https://github.com/stacksimplify/terraform-iacdevops-with-aws-codepipeline.git
+git clone https://github.com/sheokand1234/terraform-iacdevops-with-aws-codepipeline.git
 
 # Copy all files from Section-22 Git-Repo-Files folder
 1. Source Folder Path: 22-IaC-DevOps-using-AWS-CodePipeline/Git-Repo-Files
@@ -408,7 +408,7 @@ git commit -am "First Commit"
 git push
 
 # Verify same on Remote Repository
-https://github.com/stacksimplify/terraform-iacdevops-with-aws-codepipeline.git
+https://github.com/sheokand1234/terraform-iacdevops-with-aws-codepipeline.git
 ```
 
 ## Step-12: Verify if AWS Connector for GitHub already installed on your Github
@@ -531,9 +531,9 @@ arn:aws:iam::180789647333:role/service-role/codebuild-codebuild-tf-iacdevops-aws
 7. Access and Test
 ```t
 # Access and Test
-http://devdemo1.devopsincloud.com
-http://devdemo1.devopsincloud.com/app1/index.html
-http://devdemo1.devopsincloud.com/app1/metadata.html
+http://sandydemo.devopsincloud.com
+http://sandydemo.devopsincloud.com/app1/index.html
+http://sandyemo.devopsincloud.com/app1/metadata.html
 ```
 
 ## Step-19: Add Approval Stage before deploying to staging environment
@@ -595,8 +595,8 @@ http://devdemo1.devopsincloud.com/app1/metadata.html
 7. Access and Test
 ```t
 # Access and Test
-http://stagedemo1.devopsincloud.com
-http://stagedemo1.devopsincloud.com/app1/index.html
+http://sandydemo1.devopsincloud.com
+http://sandydemo1.devopsincloud.com/app1/index.html
 http://stagedemo1.devopsincloud.com/app1/metadata.html
 ```
  
@@ -714,7 +714,3 @@ git push
 
 
 
-## References
-- [1:Backend configuration Dynamic](https://www.terraform.io/docs/cli/commands/init.html)
-- [2:Backend configuration Dynamic](https://www.terraform.io/docs/language/settings/backends/configuration.html#partial-configuration)
-- [AWS CodeBuild Builspe file reference](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html#build-spec.env)
